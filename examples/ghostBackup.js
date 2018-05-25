@@ -3,9 +3,9 @@
 'use strict';
 
 var _ = require('underscore');
-var IPapi = require('./../lib/phpipam-js.js');
-var config = require('./phpipam.json');
-var api = new IPapi(config);
+var GhostAPI = require('./../lib/ghostadmin-js');
+var config = require('./ghostadmin.json');
+var api = new GhostAPI(config);
 
 api.dumpSync(function(e, dump) {
   var vlans = {};

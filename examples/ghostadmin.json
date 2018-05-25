@@ -1,0 +1,5 @@
+
+{ "baseURI": "http://localhost/ghost/api/v0.1",
+  "username": "foo@bar.org",
+  "password": "secret" }
+

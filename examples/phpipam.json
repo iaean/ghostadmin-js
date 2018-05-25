@@ -1,6 +1,0 @@
-
-{ "baseURI": "https://ip.example.com/ipv/api/apiKeyAppId",
-  "appBase": "https://ip.example.com/ipv",
-  "username": "ipam.api",
-  "password": "secret" }
-
